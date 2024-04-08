@@ -63,7 +63,7 @@ class PlantDetailFragment : Fragment() {
             // Addition of Compose
             composeView.setContent {
                 MaterialTheme {
-                    PlantDetailDescription()
+                    PlantDetailDescription(plantDetailViewModel)
                 }
             }
             viewModel = plantDetailViewModel
